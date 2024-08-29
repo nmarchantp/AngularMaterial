@@ -25,3 +25,33 @@
 #container a {
   text-decoration: none;
 }
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #3880ff; /* Color inicial */
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3880ff; /* Color inicial */
+  position: relative;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  background-color: #28a745; /* Color de las tarjetas */
+  border-radius: 10px;
+  opacity: 0; /* Comienza oculto */
+  transform: translateY(100px); /* Comienza desplazado hacia abajo */
+}

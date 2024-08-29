@@ -5,7 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-import { MatSliderModule } from '@angular/material/slider'
+import { MatSliderModule } from '@angular/material/slider';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { MatSliderModule } from '@angular/material/slider'
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    MatSliderModule
+    MatSliderModule,
+    MatSlideToggleModule
   ],
   declarations: [HomePage]
 })
