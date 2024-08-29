@@ -7,6 +7,9 @@ import { AnimationController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  isChecked: boolean = false;  // Estado del checkbox
+  selectedOption: string = '';  // Valor seleccionado en el grupo de radio buttons
+  items: string[] = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];  // Datos para la lista
 
   constructor(private animationCtrl: AnimationController) {}
 
@@ -59,5 +62,4 @@ export class HomePage {
       animation.delay(index * 200).play(); // Delay para cada tarjeta
     });
   }
-
 }

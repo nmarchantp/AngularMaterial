@@ -55,3 +55,8 @@
   opacity: 0; /* Comienza oculto */
   transform: translateY(100px); /* Comienza desplazado hacia abajo */
 }
+
+/* Estilos opcionales para el contenido adicional */
+ion-item {
+  margin-top: 10px;
+}
